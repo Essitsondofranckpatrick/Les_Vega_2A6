@@ -1,0 +1,14 @@
+INPUT(
+./debug\affichage.o
+./debug\affichage_ch.o
+./debug\chambre.o
+./debug\connection.o
+./debug\dialog.o
+./debug\evenement.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\moc_affichage.o
+./debug\moc_affichage_ch.o
+./debug\moc_dialog.o
+./debug\moc_mainwindow.o
+);

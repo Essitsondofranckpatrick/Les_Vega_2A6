@@ -1,0 +1,14 @@
+INPUT(
+./release\affichage.o
+./release\affichage_ch.o
+./release\chambre.o
+./release\connection.o
+./release\dialog.o
+./release\evenement.o
+./release\main.o
+./release\mainwindow.o
+./release\moc_affichage.o
+./release\moc_affichage_ch.o
+./release\moc_dialog.o
+./release\moc_mainwindow.o
+);
