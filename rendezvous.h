@@ -15,7 +15,7 @@ public:
 
     bool ajouter();
     QSqlQueryModel * afficher();
-
+    bool supprimer(QString);
 private:
     QString cinm,cinp,dater;
 };

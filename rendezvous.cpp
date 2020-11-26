@@ -45,3 +45,12 @@ rendezvous::rendezvous()
         return model;
     }
 
+    bool rendezvous::supprimer(QString dater)
+    {
+    QSqlQuery query;
+
+    query.prepare("Delete from patient where DATER = :dater ");
+    query.bindValue(":dater", dater);
+    return    query.exec();
+    }
+

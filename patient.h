@@ -16,6 +16,7 @@ public:
     QString get_numero();
     bool ajouter();
     QSqlQueryModel * afficher();
+    bool supprimer(QString);
 
 private:
     QString nom,prenom,maladie,cin,numero,date;

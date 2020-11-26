@@ -56,6 +56,14 @@ model->setHeaderData(4, Qt::Horizontal, QObject::tr("date1 "));
 model->setHeaderData(5, Qt::Horizontal, QObject::tr("numero"));
     return model;
 }
+bool patient::supprimer(QString cin)
+{
+QSqlQuery query;
+
+query.prepare("Delete from patient where CIN = :cin ");
+query.bindValue(":cin", cin);
+return    query.exec();
+}
 
 
 
